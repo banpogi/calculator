@@ -1,0 +1,54 @@
+* {
+    margin:  0;
+    padding: 0;
+   
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 150px;
+    
+}   
+
+.container {
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    background-color: #C4DAD2;
+    width: 314px;
+    height: 80px;   
+    border: solid #16423C;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+p {
+    font-size: 32px;
+}
+
+.btn-container {
+    background-color: #6A9C89;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+button {
+    padding: 12px;
+    width: 80px;
+    color: white;
+    background-color: #16423C; 
+}   
+
+
